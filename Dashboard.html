@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+
+
+  <!-- favicon -->
+
+  <link rel="icon" href="Karim project assets/Favicon-min.png">
+
+  <!-- bootstrap -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- my css style sheet -->
+
+  <link rel="stylesheet" href="css/Dashboard.css">
+
+  <!-- javascript -->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+
+  <script src="https://kit.fontawesome.com/631bcec3ff.js"></script>
+
+
+</head>
+
+<body>
+
+  <section id="header">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="Karim project assets\Logo\Logo (ME) New Transparent.png" width="90" height="90" alt="">
+        </a>
+        <form class="form-inline search-bar-form">
+          <i class="fas fa-search"></i>
+          <input class=" search-bar" type="search" placeholder="Search">
+        </form>
+
+        <i class="fas fa-user-circle fa-2x search-bar-icon"></i>
+      </nav>
+    </div>
+  </section>
+
+  <section id="body">
+
+
+    <div class="row">
+
+      <div class="col-2 vertical-nav">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-tasks"></i> Tasks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-comments"></i> Chats and Calls</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-users"></i> Workgroups</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-hdd"></i> ConnectingINTO Drive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="far fa-calendar-alt"></i> Calender</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="far fa-clone"></i> Time and Reports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-user-friends"></i> CRM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-globe"></i> Sites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link v-nav-icon" href="#"><i class="fas fa-user-tie"></i> Employees</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <!--left col div -->
+
+
+
+      <div class="col-5">
+
+        <div class="card">
+
+          <div class="card-body firt-type">
+
+            <div class="card-nav-bar">
+
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link card-navs" href="#">Tasks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link card-navs" href="#">Event</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link card-navs" href="#">Poll</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link card-navs" href="#">Announcment</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link card-navs" href="#">File</a>
+                </li>
+              </ul>
+            </div>
+
+            <form>
+
+              <div class="things-to-do">
+                <textarea class="form-control text-area-part"  rows="3"></textarea>
+              </div>
+            </form>
+
+
+
+            <div class="card-options">
+              <i class="option-icon fas fa-cloud-upload-alt"></i>
+              <i class="option-icon fas fa-link"></i>
+              <i class="option-icon fas fa-user"></i>
+              <i class="fas fa-clipboard-list"></i>
+              <a class="send-button" href="#">SEND</a>
+              <a class="cancel-button" href="#">CANCEL</a>
+            </div>
+
+          </div>
+          <!--card body div -->
+
+        </div>
+        <!--card div -->
+
+
+        <!--**********************************************first type of card*************************************************** -->
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="To-From-Area">
+              <table>
+                <tr>
+                  <td><i class="fas fa-user-circle fa-4x"></i></td>
+                  <td>Mostafa saad</td>
+                  <td><i class="fas fa-angle-right"></i></td>
+                  <td>to all employees</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="content-area">
+              <h6>welcome to ConnectingINTO</h6>
+              <img src="" alt="">
+              <p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare
+                diam et nisi fermentum, nec laoreet nunc feugiat. Phasellus feugiat
+                vitae urna non ullamcorper. Donec quis sapien quis libero consequat
+                auctor dapibus non justo. Curabitur convallis ex ligula. Pellentesque
+                mollis rhoncus ante, non tristique nisl porttitor non. Vestibulum
+                non enim et ante laoreet lacinia. Aliquam vel laoreet leo.</p>
+              <p class="content-p-2">Tags: <span>Advice, Tips</span></p>
+            </div>
+
+            <div class="actions-area">
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-thumbs-up"></i> Like</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-comment-alt"></i> Comment</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-user-plus"></i> Follow</a>
+            </div>
+
+            <hr>
+
+            <div class="Commenting-area">
+
+              <i class="fas fa-user-circle fa-2x user-comment-icon"></i>
+              <input type="text" class="form-control comment-input" placeholder="Add Comment">
+            </div>
+
+          </div>
+          <!--card body div -->
+        </div>
+        <!--card div -->
+        <!--************************************************************************************* -->
+
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="To-From-Area">
+              <table>
+                <tr>
+                  <td><i class="fas fa-user-circle fa-4x"></i></td>
+                  <td>Mostafa saad</td>
+                  <td><i class="fas fa-angle-right"></i></td>
+                  <td>to all employees</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="content-area">
+              <h6>welcome to ConnectingINTO</h6>
+              <img src="" alt="">
+              <p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare
+                diam et nisi fermentum, nec laoreet nunc feugiat. Phasellus feugiat
+                vitae urna non ullamcorper. Donec quis sapien quis libero consequat
+                auctor dapibus non justo. Curabitur convallis ex ligula. Pellentesque
+                mollis rhoncus ante, non tristique nisl porttitor non. Vestibulum
+                non enim et ante laoreet lacinia. Aliquam vel laoreet leo.</p>
+              <p class="content-p-2">Tags: <span>Advice, Tips</span></p>
+            </div>
+
+            <div class="actions-area">
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-thumbs-up"></i> Like</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-comment-alt"></i> Comment</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-user-plus"></i> Follow</a>
+            </div>
+
+            <hr>
+
+            <div class="Commenting-area">
+
+              <i class="fas fa-user-circle fa-2x user-comment-icon"></i>
+              <input type="text" class="form-control comment-input" placeholder="Add Comment">
+            </div>
+
+          </div>
+          <!--card body div -->
+        </div>
+        <!--card div -->
+        <!--************************************************************************************* -->
+
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="To-From-Area">
+              <table>
+                <tr>
+                  <td><i class="fas fa-user-circle fa-4x"></i></td>
+                  <td>Mostafa saad</td>
+                  <td><i class="fas fa-angle-right"></i></td>
+                  <td>to all employees</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="content-area">
+              <h6>welcome to ConnectingINTO</h6>
+              <img src="" alt="">
+              <p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare
+                diam et nisi fermentum, nec laoreet nunc feugiat. Phasellus feugiat
+                vitae urna non ullamcorper. Donec quis sapien quis libero consequat
+                auctor dapibus non justo. Curabitur convallis ex ligula. Pellentesque
+                mollis rhoncus ante, non tristique nisl porttitor non. Vestibulum
+                non enim et ante laoreet lacinia. Aliquam vel laoreet leo.</p>
+              <p class="content-p-2">Tags: <span>Advice, Tips</span></p>
+            </div>
+
+            <div class="actions-area">
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-thumbs-up"></i> Like</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-comment-alt"></i> Comment</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-user-plus"></i> Follow</a>
+            </div>
+
+            <hr>
+
+            <div class="Commenting-area">
+
+              <i class="fas fa-user-circle fa-2x user-comment-icon"></i>
+              <input type="text" class="form-control comment-input" placeholder="Add Comment">
+            </div>
+
+          </div>
+          <!--card body div -->
+        </div>
+        <!--card div -->
+        <!--************************************************************************************* -->
+
+
+        <div class="card">
+
+          <div class="card-body">
+
+            <div class="To-From-Area">
+              <table class="To-From-Area-table">
+                <tr>
+                  <td><i class="fas fa-user-circle fa-4x"></i></td>
+                  <td>Mostafa saad</td>
+                  <td><i class="fas fa-angle-right"></i></td>
+                  <td>to all employees</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="content-area">
+              <h6>welcome to ConnectingINTO</h6>
+              <img src="" alt="">
+              <p class="content-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ornare
+                diam et nisi fermentum, nec laoreet nunc feugiat. Phasellus feugiat
+                vitae urna non ullamcorper. Donec quis sapien quis libero consequat
+                auctor dapibus non justo. Curabitur convallis ex ligula. Pellentesque
+                mollis rhoncus ante, non tristique nisl porttitor non. Vestibulum
+                non enim et ante laoreet lacinia. Aliquam vel laoreet leo.</p>
+              <p class="content-p-2">Tags: <span>Advice, Tips</span></p>
+            </div>
+
+            <div class="actions-area">
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-thumbs-up"></i> Like</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-comment-alt"></i> Comment</a>
+              <a class="actions-icons" href="#"><i class="my-fas fas fa-user-plus"></i> Follow</a>
+            </div>
+
+            <hr>
+
+            <div class="Commenting-area">
+
+              <i class="fas fa-user-circle fa-2x user-comment-icon"></i>
+              <input type="text" class="form-control comment-input" placeholder="Add Comment">
+            </div>
+
+          </div>
+          <!--card body div -->
+        </div>
+        <!--card div -->
+        <!--************************************************************************************* -->
+
+      </div>
+      <!--first middle col div -->
+
+
+      <div class="col-4">
+
+        <img class="stat-img" src="Karim project assets\Dashboard\Group 129.png" alt="">
+        <img class="stat-img" src="Karim project assets\Dashboard\Group 129.png" alt="">
+        <img class="stat-img" src="Karim project assets\Dashboard\Group 130.png" alt="">
+      </div>
+      <!--second middle col div -->
+
+      <div class="col-1">
+        <table>
+          <tr>
+            <td><i class="right-col-icons fas fa-phone first"></i></td>
+
+          </tr>
+
+          <tr>
+            <td><i class="right-col-icons far fa-bell second"></i></td>
+          </tr>
+
+          <tr>
+            <td><i class="right-col-icons fas fa-sign-out-alt third"></i></td>
+          </tr>
+        </table>
+
+
+      </div>
+      <!--right col div -->
+
+    </div>
+    <!--row div -->
+
+
+  </section>
+
+</body>
+
+</html>
