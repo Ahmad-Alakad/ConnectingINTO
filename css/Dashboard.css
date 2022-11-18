@@ -1,0 +1,244 @@
+.row
+{
+  margin-right: 0;
+}
+/* header section */
+
+#header
+{
+  padding-top: 0;
+}
+
+.search-bar
+{
+  background: transparent;
+  border-style: none;
+  display: inline-block;
+  width: 90%;
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+
+}
+
+.search-bar-form
+{
+  margin-right: 600px;
+  width: 30%;
+  padding-left: 15px;
+  border-radius: 5px;
+  background-color: #efecec
+}
+
+.search-bar-icon
+{
+  padding-right:20px;
+}
+
+
+/* body srction */
+
+  /* vertical-nav */
+
+
+.v-nav-icon
+{
+  color:black;
+  font-weight: bold;
+  font-size: smaller;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.v-nav-icon:active
+{
+background-color:#dbd3ff ;
+border-radius:28px;
+padding:11px 31px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+ color: #4b65db;
+}
+
+  /* first card type */
+
+
+.firt-type
+{
+  padding-left: 30px;
+}
+
+.card-navs
+{
+  color: black;
+  font-weight: bold;
+  font-size: smaller;
+  margin-right: 20px;
+}
+
+.card-navs:active
+{
+  color: white;
+  background-color:#dbd3ff;
+  border-radius:28px;
+  padding:5px 15px;
+
+}
+
+.text-area-part
+{
+  border-style: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.text-area-hr
+{
+  margin-bottom: 150px;
+}
+
+.send-button
+{
+  color: white;
+  font-weight: bold;
+  background-color:#dbd3ff;
+  border-radius:10px;
+  padding:7px 20px;
+  margin-left: 210px;
+  margin-right: 20px;
+  font-size: smaller;
+
+}
+
+.cancel-button
+{
+  color: black;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+
+.option-icon
+{
+  margin-right: 10px;
+}
+
+
+/* secon card type */
+
+td
+{
+  padding-right: 5px;
+  font-size: small;
+}
+
+.To-From-Area-table
+{
+  margin-bottom: 30px;
+}
+
+h6
+{
+  margin-bottom: 10px;
+  padding-left: 60px;
+}
+
+.content-p
+{
+  font-size: small;
+  padding-left: 60px;
+  text-align: justify;
+  padding-right: 30px;
+}
+
+
+.content-p-2
+{
+  font-size: smaller;
+  font-weight: bold;
+  padding-left: 60px;
+  margin-bottom: 35px;
+}
+
+span
+{
+  font-weight: normal;
+  padding-left: 20px;
+}
+.actions-icons
+{
+  color: black;
+  background-color:#cccccc;
+  border-radius:28px;
+  padding:7px 15px;
+  font-size: small;
+  margin-right: 10px;
+
+
+}
+
+.actions-area
+{
+  padding-left: 40px;
+  text-align: center;
+}
+
+.my-fas
+{
+  padding-right: 7px;
+}
+.comment-input
+{
+  display: inline;
+
+
+  width: 80%;
+
+}
+
+.comment-icon
+{
+  display: inline;
+}
+
+.card
+{
+  margin-bottom: 30PX;
+  border-radius: 5px;
+  border-width: 1.25px;
+}
+
+/* second middle col */
+
+.stat-img
+{
+  display: block;
+  width: 100%;
+
+  margin-bottom: 20px;
+}
+
+
+/* right col */
+
+
+
+.first
+{
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.second
+{
+  margin-bottom: 500px;
+  padding-left: 25px;
+
+}
+
+.third
+{
+
+  padding-left: 25px;
+
+}

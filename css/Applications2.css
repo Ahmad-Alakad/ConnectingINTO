@@ -1,0 +1,347 @@
+.container-edit
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Header section */
+
+/* nav bar */
+
+#header
+{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.NavButton {
+	background-color:#9cacea;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	border:1px solid #9cacea;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.NavButton :hover {
+	/* add what you want */
+}
+.NavButton :active {
+  /* add what you want */
+}
+
+.navbar
+{
+  margin-bottom: 60px;
+}
+
+.nav-item
+{
+  margin-right: 35px;
+}
+
+/* stripe */
+
+.Header-Button {
+	background-color:White;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#9cacea;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 23px;
+	text-decoration:none;
+  display: inline;
+  position: relative;
+  left: 300px;
+
+}
+.Header-Button:hover {
+	/* add what you want  */
+}
+.Header-Button:active {
+	/* add what you want */
+}
+
+.stripe
+{
+
+  background-color: #9cacea;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin-bottom: 60px;
+  background-image:url("D:/Karim project/Karim project assets/Page 1/Group 29.png");
+  background-repeat:space;
+  background-size: auto;
+  background-position: center;
+
+
+}
+
+
+.left
+{
+  display: inline;
+  position: relative;
+  right: 325px;
+  color: white;
+}
+
+
+/* buttons */
+
+.func-buttons
+{
+  background-color:transparent;
+  -moz-border-radius:28px;
+	-webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid grey;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 31px;
+  text-decoration:none;
+}
+
+.left-Button {
+	color:grey;
+}
+.left-Button:hover {
+	/* add what you want */
+}
+.left-Button:active {
+  /* add what you want */
+}
+
+
+.middle-Button {
+	color:#9cacea;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.middle-Button:hover {
+	/* add what you want */
+}
+.middle-Button:active {
+	/* add what you want */
+}
+
+
+
+.right-Button {
+	color:grey;
+}
+.right-Button:hover {
+	/* add what you want */
+}
+.right-Button:active {
+	/* add what you want */
+}
+
+/* open for section */
+
+#open-for
+{
+margin-bottom: 50px;
+}
+
+.open-for-img
+{
+  width: 80%;
+  margin-top: 20px;
+}
+
+.open-for-h5
+{
+
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+
+}
+
+.open-for-p
+{
+
+  color: grey;
+  margin-left: 66px;
+  padding-right: 66px;
+  text-align: justify;
+  margin-bottom: 40px;
+  line-height: normal;
+
+}
+
+.open-for-h4
+{
+
+  margin-left: 66px;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+.open-for-ul
+{
+
+  margin-left: 60px;
+  list-style: none;
+
+
+}
+
+.open-for-li
+{
+
+  color: grey;
+
+}
+
+.open-for-ul .open-for-li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e3e4f5;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+
+/* bitrix24 section */
+
+#bitrix24
+{
+  margin-bottom: 50px;
+}
+
+
+.bitrix24-h4
+{
+
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+
+}
+
+.bitrix24-p
+{
+
+  margin-left: 66px;
+  padding-right: 66px;
+  text-align: justify;
+  font-weight: bolder;
+  color: grey;
+
+
+}
+
+.bitrix24-li
+{
+  color: grey;
+  padding-bottom: 15px;
+
+}
+ ol
+ {
+   margin-left: 60px;
+   padding-right: 60px;
+ }
+
+
+/* security section */
+
+#security
+{
+  margin-bottom: 50px;
+}
+
+.security-h4
+{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.security-p
+{
+  margin-left: 66px;
+  padding-right: 66px;
+  text-align: justify;
+  color: grey;
+}
+
+
+/* ideas section */
+
+#ideas
+{
+  margin-bottom: 100px;
+}
+
+.ideas-h4
+{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.ideas-p
+{
+  margin-left: 66px;
+  padding-right: 66px;
+  text-align: justify;
+  color: grey;
+}
+
+
+
+/* footer section */
+
+
+#footer
+{
+  background-color: #fefbfb;
+  padding-top: 70px;
+}
+
+.footer-img
+{
+  width: 100%;
+}
+
+.footer-h5
+{
+  margin-bottom: 40px;
+}
+
+.footer-li
+{
+  margin-bottom: 20px;
+}
+
+.footer-p
+{
+  margin-top: 23px;
+
+}
+
+.footer-a
+{
+  color: grey;
+}

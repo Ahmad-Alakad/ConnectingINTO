@@ -1,0 +1,178 @@
+body, html
+{
+  width: 100%;
+  height: 100%;
+}
+
+.container
+{
+  width: 50%;
+}
+
+.outer-container
+{
+  align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.row
+{
+  padding-left:30px;
+  padding-top:30px;
+  padding-bottom:30px;
+
+}
+
+.card
+{
+  border-width:2px;
+  border-radius: 10px;
+
+}
+
+
+
+/* left side */
+
+h3
+{
+  margin-bottom: 30px;
+}
+
+span
+{
+  border-bottom: 3px solid;
+}
+
+.signin-Button
+{
+	background-color:#9cacea;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 100px;
+	text-decoration:none;
+}
+
+.signin-Button:hover
+{
+	background-color:#9cacea;
+}
+
+.signin-Button:active
+{
+	position:relative;
+	top:1px;
+}
+
+.signin-div
+{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.forgot
+{
+  margin-left:150px;
+  margin-top: 10px;
+  font-size: smaller;
+}
+
+.forgot-text
+{
+  color: grey;
+  text-decoration:underline;
+}
+
+
+/* right side */
+
+.social-media-buttons
+{
+
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  display:block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  padding:14px 20px;
+  text-decoration:none;
+  border-bottom-right-radius:0;
+  border-top-right-radius:0;
+  width: 100%;
+  margin-left: 22px;
+
+
+
+
+
+
+
+}
+
+.Facebook-Button
+{
+background-color:#3b579d;
+margin-bottom: 50px;
+margin-top: 70px;
+
+}
+
+.Facebook-Button:hover
+{
+  /* add what you want */
+}
+
+.Facebook-Button:active
+{
+  /* add what you want */
+}
+
+.Linkedln-Button
+{
+	background-color:#0275b3;
+	border:1px solid #0275b3;
+  margin-bottom: 50px;
+}
+.Linkedln-Button:hover
+{
+  /* add what you want */
+}
+
+.Linkedln-Button:active
+{
+  /* add what you want */
+}
+
+.Google-Button {
+	background-color:#f4501e;
+	border:1px solid #f4501e;
+}
+
+.Google-Button:hover
+{
+  /* add what you want */
+}
+
+.Google-Button:active
+{
+  /* add what you want */
+}
+
+.fab
+{
+  margin-left: 20px;
+  margin-right: 40px;
+}

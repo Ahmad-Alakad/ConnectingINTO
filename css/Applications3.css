@@ -1,0 +1,358 @@
+body, html
+{
+  width: 100%
+}
+
+.container-edit
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Header section */
+#header
+{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* nav bar */
+
+
+.NavButton {
+	background-color:#9cacea;
+	-moz-border-radius:30px;
+	-webkit-border-radius:30px;
+	border-radius:30px;
+	border:1px solid #9cacea;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:10px 25px;
+	text-decoration:none;
+}
+.NavButton, .Welcome-Button:hover {
+	background-color:#9cacea;
+}
+.NavButton, .Welcome-Button:active {
+	position:relative;
+	top:1px;
+}
+
+.navbar
+{
+  margin-bottom: 60px;
+}
+
+.nav-item
+{
+  margin-right: 35px;
+}
+
+/* stripe */
+
+.Header-Button {
+	background-color:White;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	color:#9cacea;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:13px 23px;
+	text-decoration:none;
+  display: inline;
+  position: relative;
+  left: 300px;
+
+}
+.Header-Button:hover
+{
+  /* add what you want */
+}
+.Header-Button:active
+{
+  /* add what you want */
+}
+
+.stripe
+{
+
+  background-color: #9cacea;
+  padding-top: 65px;
+  padding-bottom: 65px;
+  margin-bottom: 60px;
+  background-image:url("D:/Karim project/Karim project assets/Page 1/Group 29.png");
+  background-repeat:space;
+  background-size: auto;
+  background-position: center;
+
+}
+
+.left
+{
+  display: inline;
+  position: relative;
+  right: 325px;
+  color: white;
+}
+
+/* functions section */
+
+#functions
+{
+
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.functions-h5
+{
+  margin-bottom: 70px;
+}
+
+
+/* buttons */
+
+.func-buttons
+{
+  background-color:transparent;
+  -moz-border-radius:28px;
+	-webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid grey;
+  display:inline-block;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 31px;
+  text-decoration:none;
+}
+
+.left-Button {
+	color:grey;
+}
+.left-Button:hover {
+	/* add what you want */
+}
+.left-Button:active {
+  /* add what you want */
+}
+
+
+.middle-Button {
+	color:#9cacea;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.middle-Button:hover {
+	/* add what you want */
+}
+.middle-Button:active {
+	/* add what you want */
+}
+
+
+
+.right-Button {
+	color:grey;
+}
+.right-Button:hover {
+	/* add what you want */
+}
+.right-Button:active {
+	/* add what you want */
+}
+
+/* Catalogue section */
+
+#Catalogue
+{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.card
+{
+  border-width:2px;
+  border-radius: 10px;
+
+}
+
+
+.catalouge-header
+{
+  background-color: #b8c3c8;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom:40px;
+  border-top-left-radius:5px;
+  border-top-right-radius: 5px;
+
+
+}
+
+
+.catalouge-header-h6
+{
+  font-size: 14px;
+  display: inline;
+  margin-right: 50px;
+  margin-left: 90px;
+  font-weight:400;
+}
+
+.drop-down-button
+{
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #a9b6bc;
+  border-radius: 3px;
+  text-align: left;
+  margin-right: 100px;
+
+}
+.search-bar
+{
+  background: transparent;
+  border-style: none;
+}
+
+.borderss
+{
+  border-width: 1.5px;
+  border-color: #a9b6bc;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+
+i
+{
+  padding-right: 10px;
+}
+
+
+.inlining
+{
+  display: inline;
+}
+
+
+
+
+span
+{
+  margin-right: 145px;
+}
+
+/* -------------------------------------------------- */
+
+.catalouge-h3
+{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.card
+{
+
+  width: 80%;
+
+}
+
+.catalouge-img
+{
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+
+.catalouge-h6
+{
+  font-size: 12px;;
+  padding-right: 40px;
+  margin-bottom: 3px;
+
+}
+
+.catalouge-p
+{
+  padding-right: 115px;
+  margin-bottom: 2px;
+  color: grey;
+
+}
+
+.catalouge-p2
+{
+  font-size: 10px;
+  padding-right: 55px;
+  color: grey;
+}
+
+.catalouge-row
+{
+  margin-bottom: 30px;
+}
+
+.navigation
+{
+  border-style: none;
+}
+
+.test
+{
+  margin-left: 45px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+
+/* footer section */
+
+#footer
+{
+  background-color: #fefbfb;
+  padding-top: 70px;
+}
+
+.footer-img
+{
+  width: 100%;
+}
+
+.footer-h5
+{
+  margin-bottom: 40px;
+}
+
+.footer-li
+{
+  margin-bottom: 20px;
+}
+
+.footer-p
+{
+  margin-top: 23px;
+
+}
+
+.footer-a
+{
+  color: grey;
+}
